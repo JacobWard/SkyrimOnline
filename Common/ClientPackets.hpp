@@ -1,11 +1,12 @@
 #pragma once
+using namespace std;
 
 class ClientInitialTransaction
 	: public BasicSerializable<
-		std::string,
-		std::vector<uint32_t>,
-		std::vector<float>,
-		std::vector<uint32_t>,
+		string,
+		vector<uint32_t>,
+		vector<float>,
+		vector<uint32_t>,
 		uint32_t,
 		uint32_t,
 		uint32_t,
